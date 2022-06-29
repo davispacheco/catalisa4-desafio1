@@ -9,7 +9,6 @@ public class Main {
         boolean repeticaoInstrucoes = true;
         boolean repeticaoNivelDificuldade = true;
         boolean repeticaoJogar = true;
-        boolean repeticaoJogarNovamente = true;
         Random random = new Random();
         Scanner input = new Scanner(System.in);
         System.out.println("Jogo para adivinhar um número.");
