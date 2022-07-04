@@ -40,21 +40,21 @@ public class Main {
             System.out.println("2: Médio;");
             System.out.println("3: Difícil;");
             System.out.println("4: Desistir.");
-            int opcao2 = input.nextInt();
+            String opcao2 = input.next();
             switch (opcao2) {
-                case 1:
+                case "1":
                     numeroMaximo = 10;
                     repeticaoNivelDificuldade = false;
                     break;
-                case 2:
+                case "2":
                     numeroMaximo = 100;
                     repeticaoNivelDificuldade = false;
                     break;
-                case 3:
+                case "3":
                     numeroMaximo = 1000;
                     repeticaoNivelDificuldade = false;
                     break;
-                case 4:
+                case "4":
                     System.out.println("Desistiu.\nFim do jogo!");
                     repeticaoNivelDificuldade = false;
                     repeticaoJogar = false;
